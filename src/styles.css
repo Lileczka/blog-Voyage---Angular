@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --marron: #C96B41;
+    --marronTransp: rgba(201, 107, 65, 0.7);
+    --bege:#EEDFD4;
+    --noir: #000000;
+    --blanc: #FFFFFF;
+    --Lora: "Lora";
+    --Inter: "Inter";
+
+}
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box
+}
+
+body {
+    width: 100vh;
+}
+
+

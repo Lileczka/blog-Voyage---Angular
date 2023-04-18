@@ -1,0 +1,24 @@
+<section>
+  <h3>Autres voyages</h3>
+  <div class="container">
+    <div *ngFor="let voyage of voyages">
+      <div>
+        <img class="imageContainer"
+          src="{{ voyage.image }}"
+          alt="Image de {{ voyage.country }}"
+        />
+        <div class="petitContainer">
+            <div class="textContainer">
+          <h2>{{ voyage.country }}</h2>
+          <p>{{ voyage.city }}</p>
+        </div>
+          <div class="barre-verticale"></div>
+          <div class="dateContainer">
+          <p class="date">Du {{ voyage.goDate | date:'dd/MM/yyyy' }}</p>
+          <p class="date">au {{ voyage.backDate | date:'dd/MM/yyyy' }}</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
