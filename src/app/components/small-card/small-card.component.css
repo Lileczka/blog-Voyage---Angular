@@ -7,9 +7,9 @@
     align-items: center; 
     gap:15px;
     padding-left: 157px;
-  
-    
+    margin-bottom: 63px;
 }
+
 .imageContainer{
     width: 500px;
     height: 512px;
@@ -35,6 +35,9 @@ h3 {
     font-size: 60px;
     font-weight: 400;
     line-height: 76.8px;
+    margin-top: 209px;
+    margin-left: 157px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -58,17 +61,15 @@ p {
     margin-top: 40px;
    
 }
-.date {
-    font-family: var(--Inter);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--blanc);
-    margin-top: -2px;
-    padding-top: 10px;
+
+
+p, .dateContainer {
+    margin-top: 2px; 
 }
 
-p, .date {
-    margin-top: -7px; 
+.dateContainer {
+    padding-top: 25px;
+   margin-left: -15px;
 }
 
 .textContainer {
@@ -79,5 +80,6 @@ p, .date {
     width: 1px; 
     height: 106px;
     background-color: var(--blanc);
-    margin-left: 250px;
+    margin-left: 350px;
+    margin-top: -72px;
 }
