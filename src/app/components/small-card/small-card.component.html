@@ -9,13 +9,13 @@
         />
         <div class="petitContainer">
             <div class="textContainer">
-          <h2>{{ voyage.country }}</h2>
+          <h2> {{     voyage.country     }} </h2>
           <p>{{ voyage.city }}</p>
-        </div>
-          <div class="barre-verticale"></div>
+        
+          <div class="barre-verticale"></div></div>
           <div class="dateContainer">
-          <p class="date">Du {{ voyage.goDate | date:'dd/MM/yyyy' }}</p>
-          <p class="date">au {{ voyage.backDate | date:'dd/MM/yyyy' }}</p>
+          <p >Du {{ voyage.goDate | date:'dd/MM/yyyy' }}</p>
+          <p >au {{ voyage.backDate | date:'dd/MM/yyyy' }}</p>
         </div>
         </div>
       </div>
