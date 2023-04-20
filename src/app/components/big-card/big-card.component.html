@@ -1,14 +1,15 @@
 <section>
-    <div class="imageContainer">
-      <img
-        src="{{ voyage.image }}"
-        alt="Image de {{ voyage.country }}"/>
-      <div class="container">
-      <h2>{{ voyage.country }} - {{ voyage.city }}
-      <div class="barre-verticale"></div>
-     </h2>
-    <p>temperature</p>
-      </div>
+  <div class="imageContainer">
+    <img src="{{ voyage.image }}" alt="Image de {{ voyage.country }}" />
+    <div class="container">
+      <h2>
+        {{ voyage.country }} - {{ voyage.city }}
+        <div class="barre-verticale"></div>
+      </h2>
+      <p>
+        Du {{ voyage.goDate | date : "dd/MM/yyyy" }} - au
+        {{ voyage.backDate | date : "dd/MM/yyyy" }}
+      </p>
     </div>
+  </div>
 </section>
-  

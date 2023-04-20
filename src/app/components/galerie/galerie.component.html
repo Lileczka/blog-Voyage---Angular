@@ -1,1 +1,6 @@
-<p>galerie works!</p>
+<h3>Pour voyager un peu plus</h3>
+    <div class="container"> 
+        <div *ngFor="let image of voyages[3].imageGalerie">
+            <img [src]="getImageUrl(image)" alt={{image.titre}} />
+          </div>
+</div>
