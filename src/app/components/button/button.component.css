@@ -1,8 +1,20 @@
-.carre {
+section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    position: fixed;
+    bottom: 0; /* ajuster la position verticale */
+    right: 0; /* ajuster la position horizontale */
+}
+
+  .carre {
     width: 150px;
     height: 150px;
     background-color: var(--marron);
     border: none;
+    
 }
 
 .blanc {
