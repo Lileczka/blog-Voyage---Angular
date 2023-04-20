@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IVOYAGES, IVoyage } from 'src/app/parametre.mock';
 
 @Component({
   selector: 'app-travel-card',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./travel-card.component.css']
 })
 export class TravelCardComponent {
-
+  voyage: IVoyage = IVOYAGES[IVOYAGES.length - 1];
+  
+  
 }
