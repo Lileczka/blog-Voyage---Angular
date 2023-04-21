@@ -1,9 +1,8 @@
 <section>
     <div class="container">
-        <h3>Le voyage</h3>
+        <h3>{{ titre }}</h3>
         <div class="petitContainer">
-            <p *ngFor="let text of voyage.description">
+            <p *ngFor="let text of (typeAffichage === 'description' ? voyage.description : voyage.voyage)">
                 {{ text }}</p>
-        </div>
+            </div>
     </div>
-</section>

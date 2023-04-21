@@ -10,12 +10,11 @@ import { HeaderComponent } from './components/header/header.component';
 
 import { ButtonComponent } from './components/button/button.component';
 import { AvisComponent } from './components/avis/avis.component';
-
-import { GalerieComponent } from './components/galerie/galerie.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { PictureCardComponent } from './components/picture-card/picture-card.component';
 import { TravelCardComponent } from './components/travel-card/travel-card.component';
+import { galerieComponent } from './components/galerie/galerie.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,7 @@ import { TravelCardComponent } from './components/travel-card/travel-card.compon
     HeaderComponent,
     ButtonComponent,
     AvisComponent,
-    GalerieComponent,
+    galerieComponent,
     BigCardComponent,
     SmallCardComponent,
     PictureCardComponent,

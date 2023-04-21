@@ -1,17 +1,17 @@
 .container {
-    border: 3px solid rgb(22, 198, 61);
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     justify-items: center; 
     align-items: center; 
-    gap:15px;
+    gap:31px;
     padding-left: 157px;
     margin-bottom: 63px;
+    
 }
 
 .imageContainer{
     width: 500px;
-    height: 512px;
+    height: 406px;
     display: flex;
 }
 
@@ -27,13 +27,12 @@ img {
     height: 106px;
     background-color:var(--marron);
     display: flex;
+   
 }
 
 h3 {
-   
-   
-    margin-left: 157px;
-    margin-bottom: 50px;
+   margin-left: 157px;
+   margin-bottom: 44px;
 }
 
 h2 {
@@ -65,7 +64,7 @@ p, .dateContainer {
 
 .dateContainer {
     padding-top: 25px;
-   margin-left: -15px;
+    margin-left: -15px;
 }
 
 .textContainer {
@@ -78,4 +77,14 @@ p, .dateContainer {
     background-color: var(--blanc);
     margin-left: 350px;
     margin-top: -72px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    h3 {
+        font-size: 10px;
+    }
 }
