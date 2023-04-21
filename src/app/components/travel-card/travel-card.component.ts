@@ -8,6 +8,6 @@ import { IVOYAGES, IVoyage } from 'src/app/parametre.mock';
 })
 export class TravelCardComponent {
   voyage: IVoyage = IVOYAGES[IVOYAGES.length - 1];
-  
-  
+  @Input() titre!: string;
+  @Input() typeAffichage!: string;
 }

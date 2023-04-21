@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input} from '@angular/core';
+
 import { IVOYAGES, IVoyage, IimageGalerie} from 'src/app/parametre.mock';
 
 @Component({
@@ -6,9 +7,11 @@ import { IVOYAGES, IVoyage, IimageGalerie} from 'src/app/parametre.mock';
   templateUrl: './galerie.component.html',
   styleUrls: ['./galerie.component.css']
 })
-export class GalerieComponent {
+export class galerieComponent  {
   voyages: IVoyage[] = IVOYAGES;
   images: IimageGalerie[]= [];
+  @Input() titre!: string;
+  
   constructor() {
     // Extraction des images de chaque voyage
     this.voyages.forEach((voyage) => {
@@ -19,6 +22,8 @@ export class GalerieComponent {
   getImageUrl(image: IimageGalerie): string {
     return image.picture;
   }
+  
 }
+
   
 

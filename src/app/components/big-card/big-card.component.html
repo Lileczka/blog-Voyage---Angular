@@ -1,6 +1,8 @@
 <section>
   <div class="imageContainer">
+    <a [routerLink]="['/page2']" [queryParams]="{ id: voyage.id, image: voyage.image }">
     <img src="{{ voyage.image }}" alt="Image de {{ voyage.country }}" />
+    </a>
     <div class="container">
       <h2>
         {{ voyage.country }} - {{ voyage.city }}

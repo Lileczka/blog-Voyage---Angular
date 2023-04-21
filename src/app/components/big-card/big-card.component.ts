@@ -9,3 +9,5 @@ import { IVOYAGES, IVoyage } from 'src/app/parametre.mock';
 export class BigCardComponent {
   voyage: IVoyage = IVOYAGES[IVOYAGES.length - 1];
 }
+
+
