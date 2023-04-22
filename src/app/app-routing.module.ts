@@ -12,6 +12,7 @@ const routes: Routes = [
       path:'page2', 
       component: ArticleComponent
       }
+     
 ];
 
 @NgModule({

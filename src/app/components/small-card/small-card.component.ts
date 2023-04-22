@@ -1,23 +1,16 @@
-import { Component, Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { IVOYAGES, IVoyage } from 'src/app/parametre.mock';
 
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
-  styleUrls: ['./small-card.component.css']
+  styleUrls: ['./small-card.component.css'],
 })
 export class SmallCardComponent {
-@Input() voyage!: IVoyage[];
+  @Input() voyage!: IVoyage[];
 
-voyages: IVoyage[] = IVOYAGES;
+  voyages: IVoyage[] = IVOYAGES;
 
-constructor(
-  private router: Router, 
-  private route: ActivatedRoute) {}
-
-  onClickImage(id: string, image: string, voyage: IVoyage) {
-    this.router.navigate(['/page2'], { queryParams: { id: id, image: image } });
-    
-  }
+  constructor(private router: Router, private route: ActivatedRoute) {}
 }
