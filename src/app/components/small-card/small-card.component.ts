@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { IVOYAGES, IVoyage } from 'src/app/parametre.mock';
+import { VoyageService } from 'src/app/voyage.service';
 
 @Component({
   selector: 'app-small-card',
@@ -12,5 +13,12 @@ export class SmallCardComponent {
 
   voyages: IVoyage[] = IVOYAGES;
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  constructor(private router: Router, 
+    private route: ActivatedRoute,
+    private voyageService: VoyageService) {}
+ 
+    onImageClick(voyage: IVoyage): void {
+      this.voyageService.setSelectedVoyage(voyage);
+    }
+
 }

@@ -3,7 +3,7 @@
   <div class="container">
     <div *ngFor="let voyage of voyages; let i = index">
       <ng-container *ngIf="i !== voyages.length - 1">
-        <a
+        <a (click)="onImageClick(voyage)"
           [routerLink]="['/page2']"
           [queryParams]="{
             id: voyage.id,
@@ -11,7 +11,10 @@
             city: voyage.city,
             country: voyage.country,
             goDate :voyage.goDate?.toISOString(),
-            backDate: voyage.backDate?.toISOString()
+            backDate: voyage.backDate?.toISOString(),
+            avisPositive: voyage.avisPositive,
+            avisNegatif: voyage.avisNegatif,
+            conseil: voyage.conseil,
           }"
         >
           <img

@@ -15,7 +15,7 @@ export class VoyageService {
   setSelectedVoyage(voyage: IVoyage) {
     this.selectedVoyage = voyage;
   }
-
+  //pour afficher galerie de photos dans galerieComponent 
   getSelectedVoyage(id: number): IVoyage {
     const voyage = IVOYAGES.find(voyage => voyage.id === id) ?? {} as IVoyage;
     this.selectedVoyage = voyage;
