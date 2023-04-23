@@ -11,7 +11,9 @@ p {
 
 .petitContainer {
     width: 1029px;
-    height: 359px;
+    height: auto;
+    /* permet à la div de s'adapter à la largeur de son contenu*/
+    display: inline-block;
     background-color: var(--marron);
     margin-top: 44px;
     margin-left: 152px;
