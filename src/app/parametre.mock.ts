@@ -215,12 +215,12 @@ export const IVOYAGES: IVoyage[] = [
       },
       {
         id: 11,
-        titre: 'Japon,la rue de Tokyo ',
+        titre: 'Japon,la rue de Tokyo',
         picture: 'assets/photos/japon/japon12.jpg',
       },
       {
         id: 12,
-        titre: 'Japon, fleur de cerises dans la rue ',
+        titre: 'Japon, fleur de cerises dans la rue',
         picture: 'assets/photos/japon/japon13.jpg',
       }
     ],
