@@ -84,8 +84,8 @@ export const IVOYAGES: IVoyage[] = [
     ],
     avisPositive: [
       "L'ancienne cité jardin a conservé la tradition de somptueux espaces verts.",
-      'hôtel très sympa',
-      "équipe d'animation excellente",
+      "L'hôtel très sympa",
+      "L'équipe d'animation excellente",
       ' Beaucoup de lieux touristiques accessibles à pied.',
     ],
     avisNegatif: ['les chambres bruillants'],
@@ -140,20 +140,29 @@ export const IVOYAGES: IVoyage[] = [
         picture: 'assets/photos/pologne/pologne9.jpg',
       },
     ],
-    voyage: ['xx'],
+    voyage: ["L'ancienne capitale de la Pologne et le siège des rois polonais, Cracovie, fondée par le mythique Krak, est l'une des plus anciennes villes du pays. Etablie sur la Vistule (Wisla), elle est la capitale de la région de Małopolska. Cracovie est un véritable joyau du patrimoine culturel national qui attire une foule de touristes du monde entier",
+    "Cracovie est l’un des joyaux d’Europe Centrale. Elle regorge d’églises, de musées et de palais en un formidable éventail de styles, du gothique au baroque."
+    ],
     description: [
       'Classée au Patrimoine mondial de l’UNESCO dès 1978, ville de légendes et de monuments inestimables, Cracovie est aussi une ville qui sait faire la fête et enchante au premier regard.\nLe quartier de Kazimierz, qui jouxte la vieille ville, avait été - du XIVe eu XIXe siècle une ville indépendante,  Pour les habitants et les touristes, Kazimierz, c’est avant tout un salon avec ses clubs, ses pubs et ses restaurants dont certains proposent des plats traditionnels casher.',
+      'Cracovie est une belle  ville, agreable et a taille humaine, une fois que tu connais du monde, il arrive souvent de rencontrer des gens que tu connais le soir.',
     ],
     avisPositive: [
-      'Très beau panorama sur Cracovie et les montagnes',
-      'la forteresse de Barbacana',
-      "Cracovie est une ville chargée d'histoire",
+      'La vie n’est pas chere ',
+      "Cracovie est une ville chargée d'histoire: la forteresse de Barbacana",
+      'La vie culturelle animee avec de muliples evenements'
     ],
     avisNegatif: [
-      'les chambres bruillants',
-      "Il est recommmandé de ne pas boire l'eau du robinet",
+     'Les crimes mineurs comme le vol à la tire',
+      "Certains automobilistes ne respectent pas le code de la route,les déplacements routiers peuvent être dangereux",
+      "À l’occasion des matchs de soccer, des affrontements violents, peuvent éclater entre les partisans d’équipes adverses." 
     ],
-    conseil: ['vv'],
+    conseil: [
+      "Planifiez votre transfert de l'aéroport à Cracovie",
+      ' Familiarisez-vous avec la monnaie locale : le złoty.',
+      'Optez pour une visite guidée'
+
+    ],
   },
   {
     id: 3,
@@ -224,20 +233,30 @@ export const IVOYAGES: IVoyage[] = [
         picture: 'assets/photos/japon/japon13.jpg',
       }
     ],
-    voyage: ['xx'],
+    voyage: [
+      "Rien de plus dépaysant qu’un voyage au Japon… Depuis le sommet du mont Fuji au soleil levant ou dans un parc de Nara un après-midi d’automne, on se sent hors du monde. Dans les ruelles médiévales de Kanazawa ou dans un jardin japonais zen enveloppé d’une brume matinale, on vit des moments hors du temps.",
+      "Dans les villes japonaises, le voyageur est pris de vertiges: au pied des gratte-ciel de Shinjuku à Tokyo, au milieu des échoppes d’un marché d’Osaka, dans les boutiques branchées de Hiroshima… Entre ville et nature, partez à la découverte des traditions culturelles du Japon grâce à nos voyages en immersion au pays du Soleil-Levant.",
+     ],
     description: [
-      'Classée au Patrimoine mondial de l’UNESCO dès 1978, ville de légendes et de monuments inestimables, Cracovie est aussi une ville qui sait faire la fête et enchante au premier regard.\nLe quartier de Kazimierz, qui jouxte la vieille ville, avait été - du XIVe eu XIXe siècle une ville indépendante,  Pour les habitants et les touristes, Kazimierz, c’est avant tout un salon avec ses clubs, ses pubs et ses restaurants dont certains proposent des plats traditionnels casher.',
+      'Au nom seul de « Tokyo », notre imaginaire plonge dans un univers de gratte-ciel futuristes, de lolitas branchées et de néons multicolores. Or, comme seuls les Japonais savent le faire, la capitale est le fruit d’un savant dosage d’avant-garde et d’héritage du passé, d’effervescence et de zen.',
+      'Même en plein cœur de la ville, on peut trouver une forêt, un gigantesque temple bouddhique, des ruelles où le temps semble suspendu. En filant en métro d’un quartier à un autre, on multiplie les expériences et les ambiances.',
+      'Tokyo s’apprécie particulièrement au printemps (fin mars-début avril), quand les températures sont douces (9 à 19 °C). Le must, c’est bien sûr de découvrir la capitale sous les cerisiers en fleurs ,'
     ],
     avisPositive: [
-      'Très beau panorama sur Cracovie et les montagnes',
-      'la forteresse de Barbacana',
-      "Cracovie est une ville chargée d'histoire",
+      'Les eaux thermales sont alimentées par des sources volcaniques. Les onsens sont des bains chauds intérieurs ou extérieurs ayant des propriétés thérapeutiques pour le corps et l’esprit',
+      'La pratique des arts',
+      "La propreté des lieux publics",
     ],
     avisNegatif: [
-      'les chambres bruillants',
-      "Il est recommmandé de ne pas boire l'eau du robinet",
+      'Japon est cher! L',
+      'Il est très rare de trouver des endroits pour pouvoir payer en carte bancaire car la majorité des transactions se font en espèces',
+      'Pas de wifi gratuit'
     ],
-    conseil: ['vv'],
+    conseil: [
+      'Connaître les habitudes japonaises: ne pas donner des pourboires ',
+      'Ne pas y aller en été (humidité et de 40° C)',
+      'Prévoir un GPS '
+    ],
   },
   {
     id: 4,
